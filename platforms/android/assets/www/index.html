@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>实景影像浏览</title>
+    <script src=./static/js/jquery-1.7.2.js></script>
+    <script src=./static/js/ppv/js/jquery.mousewheel.min.js></script>
+    <script src=./static/js/ppv/js/three.js-master/build/three.min.js></script>
+    <script src=./static/js/ppv/js/proj4js-2.3.16/dist/proj4.js></script>
+    <script src=./static/js/ppv/ppv/js-require/ppv.req.min.js></script>
+    <link href=app.12e77a05548b24837f68cc5d5ee68e38.css rel=stylesheet>
+</head>
+
+<body>
+    <script type=text/javascript src=cordova.js></script>
+    <div id=app></div>
+    <script type=text/javascript src=manifest.540315d4b136be96d6bb.js></script>
+    <script type=text/javascript src=vendor.43c36a55a2f4862ca668.js></script>
+    <script type=text/javascript src=app.b733c783a29d75c98c17.js></script>
+    <script>
+        app.initialize(); 
+            window.onload=function() 
+            { 
+            document.addEventListener("deviceready",
+            function() 
+            { 
+            navigator.splashscreen.hide(); 
+            }, 
+            false); 
+        }
+    </script>
+</body>
+
+</html>
